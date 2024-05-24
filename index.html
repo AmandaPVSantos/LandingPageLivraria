@@ -9,21 +9,16 @@
 </head>
 <body>
 
-    
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">História</a>
+                    <a class="nav-link" href="#" onclick="navigate('historia')">História</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -40,21 +35,22 @@
                     <li><a class="dropdown-item" href="#">História</a></li>
                     <li><a class="dropdown-item" href="#">Autoajuda</a></li>
                     <li><a class="dropdown-item" href="#">Literatura Infantil</a></li>
+                    <li><a class="dropdown-item" href="#">Mangás</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
+                    <a class="nav-link" href="#" onclick="navigate('login')">Login</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Favoritos</a>
+                    <a class="nav-link" href="#" onclick="navigate('favoritos')">Favoritos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Minha cesta</a>
+                    <a class="nav-link" href="#" onclick="navigate('cesta')">Minha cesta</a>
                 </li>
                 </ul>
                 <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <input class="form-control me-2" id="input-btn" type="search" placeholder="Pesquisa" aria-label="Search">
+                <button class="btn" id="btn" type="submit">Search</button>
                 </form>
             </div>
             </div>
@@ -62,7 +58,8 @@
     </header>    
 
     <section>
-        <div></div>
+        <div class="container">
+        </div>
     </section>
 
 
