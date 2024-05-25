@@ -20,3 +20,15 @@
 #btn:hover {
     background-color: rgb(216, 113, 216);
 }
+
+/*section content*/
+.custom-size {
+    width: 10px;
+    height: 10px;
+}
+
+/*footer*/
+.footer-pai {
+    background-color: #000;
+    color: #fff;
+}
