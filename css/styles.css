@@ -21,6 +21,12 @@
     background-color: rgb(216, 113, 216);
 }
 
+
+/*content - home*/
+.content-home {
+    padding: 60px;
+}
+
 /*section content*/
 .custom-size {
     width: 10px;
