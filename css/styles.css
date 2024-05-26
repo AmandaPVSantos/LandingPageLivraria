@@ -32,3 +32,25 @@
     background-color: #000;
     color: #fff;
 }
+
+.footerFilho > div {
+    flex: 1; /* Faz com que cada elemento filho ocupe o mesmo espaço */
+    margin: 10px; /* Adiciona espaçamento entre os elementos */
+    min-width: 200px; /* Define uma largura mínima para evitar que os elementos fiquem muito pequenos */
+}
+
+.footer-formaDePagamento img {
+    margin: 5px; /* Adiciona espaçamento entre as imagens */
+}
+
+.clicavel:hover {
+    cursor: pointer; 
+}
+
+.footerDesenvolvido {
+    word-break: break-word; /* Quebra palavras longas para evitar overflow */
+    margin-bottom: 10px; /* Adiciona espaçamento entre os parágrafos */
+}
+
+
+
