@@ -1,3 +1,4 @@
-function navigateTo(page) {
+function navigateToPage(page) {
     window.location.href = page;
 }
+
