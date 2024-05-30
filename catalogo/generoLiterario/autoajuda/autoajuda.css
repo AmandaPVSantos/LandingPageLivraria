@@ -1,0 +1,21 @@
+.conteudoPrincipal {
+    background-color: red;
+    padding: 30px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 10px;
+    background-color: blue;
+}
+
+.carousel {
+
+    margin: 50px 0px 0px 0px;
+}
+
+/* Ajustando o tamanho das imagens */
+img {
+
+    background-color: purple;
+}
