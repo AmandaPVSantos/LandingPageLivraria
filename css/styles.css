@@ -1,5 +1,5 @@
 .navbar {
-    background-color: black;
+    background-color: #000;
 }
 
 .navbar .nav-link {
@@ -19,6 +19,40 @@
 
 #btn:hover {
     background-color: rgb(216, 113, 216);
+}
+
+/*dropdown-menu*/
+.collapse ul {
+ margin: 0px 12px 0px 12px;
+ padding: 10px;
+ background-color: #000;
+}
+
+.direcionamento  {
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.dropdownList {
+    background-color: red;
+}
+
+.direcionamento-link {
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100px;
+}
+
+.nav-item a:hover {
+    color: rgb(216, 113, 216);
+}
+
+.button {
+    color: #fff;
 }
 
 /*Conteudo principal*/
@@ -51,6 +85,12 @@
 
 .conteudo-paragrafoTerceiro {
     margin: 30px 0px 0px 0px;
+}
+
+/*dropdown-menu*/
+.direcionamento {
+    text-decoration: none;
+    padding: 10px;
 }
 
 /*footer*/
