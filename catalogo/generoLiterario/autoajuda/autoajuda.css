@@ -1,21 +1,33 @@
-.conteudoPrincipal {
+*{
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.carrossel {
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    margin: 20px 20px 20px 20px;
+    
+}
+
+.conteudo-principal {
     background-color: red;
-    padding: 30px;
 }
 
-h1 {
-    font-weight: bold;
-    font-size: 10px;
-    background-color: blue;
+.carrossel-container {
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
 }
 
-.carousel {
-
-    margin: 50px 0px 0px 0px;
-}
-
-/* Ajustando o tamanho das imagens */
-img {
-
-    background-color: purple;
+.carrossel-container img {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
 }

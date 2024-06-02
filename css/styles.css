@@ -21,16 +21,36 @@
     background-color: rgb(216, 113, 216);
 }
 
-
-/*content - home*/
-.content-home {
-    padding: 60px;
+/*Conteudo principal*/
+.conteudo-secundario-home {
+    margin: 5% 15% 2% 15%;
 }
 
-/*section content*/
-.custom-size {
-    width: 10px;
-    height: 10px;
+/*titulo card*/
+.card-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-text  {
+    font-size: 14px;
+}
+
+.subtitulo {
+    font-size: 20px;
+}
+
+/*paragrafos*/
+.conteudo-paragrafoSecundario {
+    margin: 30px 0px 0px 0px;
+}
+
+.home-subtitulo, .titulo-principal {
+    margin-bottom: 2%;
+}
+
+.conteudo-paragrafoTerceiro {
+    margin: 30px 0px 0px 0px;
 }
 
 /*footer*/
@@ -40,13 +60,13 @@
 }
 
 .footerFilho > div {
-    flex: 1; /* Faz com que cada elemento filho ocupe o mesmo espaço */
-    margin: 10px; /* Adiciona espaçamento entre os elementos */
-    min-width: 200px; /* Define uma largura mínima para evitar que os elementos fiquem muito pequenos */
+    flex: 1; 
+    margin: 10px; 
+    min-width: 200px;
 }
 
 .footer-formaDePagamento img {
-    margin: 5px; /* Adiciona espaçamento entre as imagens */
+    margin: 5px;
 }
 
 .clicavel:hover {
@@ -54,9 +74,6 @@
 }
 
 .footerDesenvolvido {
-    word-break: break-word; /* Quebra palavras longas para evitar overflow */
-    margin-bottom: 10px; /* Adiciona espaçamento entre os parágrafos */
+    word-break: break-word;
+    margin-bottom: 10px;
 }
-
-
-
