@@ -1,6 +1,10 @@
 .navbar {
     background-color: #000;
 }
+body {
+    background-color: #fceabb !important;
+}
+
 
 .navbar .nav-link {
     color: #fff;
@@ -8,17 +12,20 @@
 }
 
 .navbar .nav-link:hover {
-    color: rgb(216, 113, 216);
+    color: #fceabb;
     font-weight: bold;
 }
 
 #btn {
     color: #fff;
-    border-color: rgb(216, 113, 216);
+    border-color: #fceabb;
+    font-weight: bold;
 }
 
 #btn:hover {
-    background-color: rgb(216, 113, 216);
+    background-color: #fceabb;
+    color: #000;
+    font-weight: bold;
 }
 
 /*dropdown-menu*/
@@ -48,7 +55,7 @@
 }
 
 .nav-item a:hover {
-    color: rgb(216, 113, 216);
+    color: #fceabb;
 }
 
 .button {

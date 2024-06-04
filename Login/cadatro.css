@@ -1,3 +1,12 @@
+:root {
+    --main-bg-color: red;
+    --checked-bg-color: #000;
+    --checkmark-color: white;
+    --checkmark-size: 10px;
+}
+
+
+
 .tituloCadastro {
     margin: 4%;
 }
@@ -9,6 +18,8 @@
     padding: 3px;
     border: 3px solid #000;
     border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);;
+    color: #fff;
 }
 
 #exampleInputEmail1, #exampleInputPassword1 {
@@ -18,18 +29,30 @@
 #botaoCadastro {
     background-color: #000;
     color: #fff;
+    font-weight: bold;
+    width: 100px;
 }
 
 #botaoCadastro:hover {
-    /* background-color: rgb(216, 113, 216);
-    color: #fff; */
+    background-color: #fceabb;
+    color: #000;
+    font-weight: bold;
 }
 
-#botaoCadastro:hover {
-    background-color: rgb(216, 113, 216);
-    color: #fff;
+/*checkbox*/
+input[type="checkbox"].form-check-input {
+    
+    background-color: var(--checkmark-color);
+    border-color: #000;   
 }
 
+.form-check-input:checked[type=checkbox] {
+    --bs-form-check-bg-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e);
+    background-color: var(--checked-bg-color);
+}
+
+
+/*footer*/
 #footer-pai {
     margin-top: 20%;
 }
