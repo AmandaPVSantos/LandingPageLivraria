@@ -5,13 +5,24 @@
     --checkmark-size: 10px;
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.areaLogin {
+    margin: 4%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
 
 .formLogin {
     margin: 4%;
 }
 
 .formLoginMainMaster {
-    margin-top: 15%;
+    /* margin-top: 15%; */
     margin-left: 30%;
     margin-right: 30%;
     padding: 3px;
@@ -31,9 +42,6 @@
 
 .recuperarSenha{
     margin-left: 100px;
-}
-
-.paragrafoRecuperarSenha {
 }
 
 #exampleInputEmail1, #exampleInputPassword1 {
