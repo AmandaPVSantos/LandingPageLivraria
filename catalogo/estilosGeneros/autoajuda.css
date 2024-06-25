@@ -1,21 +1,23 @@
-/* Apresentação Slide */
+/* Importação de fontes */
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* Ajuste de box-sizing */
 *, ::after, ::before {
-    box-sizing: content-box; /* Volta ao padrão */
+    box-sizing: border-box; /* Corrigido para incluir padding e border no tamanho total do elemento */
 }
 
+/* Estilo básico do corpo */
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
 }
 
-/* Titulo e subtitulo - Catalogo */
+/* Título e subtítulo do catálogo */
 .texto-titulo-catalogo {
     font-family: "Playwrite PL", cursive;
     font-optical-sizing: auto;
-    font-weight: weight;
+    font-weight: 400;
     font-style: normal;
     margin: 90px;
 }
@@ -27,7 +29,7 @@ body {
     margin: 50px;
 }
 
-/*PREVARROW E NEXTARROW*/
+/* Botões de navegação do carrossel */
 .prev,
 .next {
     position: absolute;
@@ -59,13 +61,15 @@ body {
     opacity: 1;
 }
 
-/* Titulo main primário */
+/* Título principal do catálogo */
 .titulo-catalogo {
+    background-color: red;
     font-size: 35px;
     font-weight: bold;
     margin-top: 50px;
 }
 
+/* Parágrafos principais */
 .paragrafo-autoajuda-main {
     margin-top: 30px;
 }
@@ -75,118 +79,56 @@ body {
     font-weight: bold;
 }
 
-/*content card*/
+/* Estilo das imagens dos cards */
 .card img {
-    
-    margin-left: 58px;
-    height: 300px;
-    width: 200px;
+    margin-left: 10px;
+    height: 190px;
+    width: 160px;
 }
 
-/*CARD TEXTUAL GERAL*/
-.card-title-um, .card-title-dois, .card-title-tres, .card-title-quatro, .card-title-cinco {
+/* Estilo dos textos dos cards */
+.card-title-um, .card-title-dois,
+.card-title-tres,
+.card-title-quatro,
+.card-title-cinco {
     font-weight: bold;
     font-size: 20px;
     white-space: nowrap;
 }
 
-/*CARD TEXTUAL UM*/
-.card-paragrafo-um {
-    margin-top: 40px;
-    font-size: 20px;
-}
-
-.card-valor-um {
-    margin-top: 35px;
-    font-size: 30px;
-}
-
-.card-ValorParcelado-um {
-    font-size: 18px;
-}
-
-/*CARD TEXTUAL DOIS*/
-.card-paragrafo-dois {
-    margin-top: 40px;
-    font-size: 20px;
-}
-
-.card-valor-dois {
-    margin-top: 35px;
-    font-size: 30px;
-}
-
-.card-ValorParcelado-dois {
-    font-size: 18px;
-}
-
-/*CARD TEXTUAL TRES*/
-.card-title-tres {
-    margin-top: 2px;
-    font-size: 20px;
-}
-
-.card-paragrafo-tres {
-    margin-top: 40px;
-    font-size: 20px;
-}
-
-.card-valor-tres {
-    margin-top: 35px;
-    font-size: 30px;
-}
-
-.card-ValorParcelado-tres {
-    font-size: 18px;
-}
-
-/*CARD TEXTUAL QUATRO*/
-.card-title-quatro {
-    margin-top: 2px;
-    font-size: 20px;
-}
-
-.card-paragrafo-quatro {
-    margin-top: 40px;
-    font-size: 20px;
-}
-
-.card-valor-quatro {
-    margin-top: 35px;
-    font-size: 30px;
-}
-
-.card-ValorParcelado-quatro {
-    font-size: 18px;
-}
-
-/*CARD TEXTUAL CINCO*/
-.card-title-cinco {
-    font-size: 30px;
-    font-size: 20px;
-}
-
+/* Estilo dos parágrafos e valores dos cards */
+.card-paragrafo-um,
+.card-paragrafo-dois,
+.card-paragrafo-tres,
+.card-paragrafo-quatro,
 .card-paragrafo-cinco {
     margin-top: 40px;
     font-size: 20px;
 }
 
+.card-valor-um,
+.card-valor-dois,
+.card-valor-tres,
+.card-valor-quatro,
 .card-valor-cinco {
     margin-top: 35px;
     font-size: 30px;
 }
 
+.card-ValorParcelado-um,
+.card-ValorParcelado-dois,
+.card-ValorParcelado-tres,
+.card-ValorParcelado-quatro,
 .card-ValorParcelado-cinco {
     font-size: 18px;
 }
 
-
-/* Imagem dentro do card */
+/* Ajuste de altura das imagens */
 .img-tres, .img-quatro, .img-cinco {
     height: 170px;
 }
 
-/* Botão de comprar */
+/* Estilo do botão de comprar */
 #botaoComprar {
     background-color: #000 !important;
     border: #000 !important;
@@ -194,8 +136,8 @@ body {
     font-weight: bold !important;
     font-size: 20px !important;
     margin-top: 9px !important;
-    height: 30px !important;
-    width: 180px !important;
+    height: 50px !important;
+    width: 170px !important;
 }
 
 #botaoComprar:hover {
@@ -203,7 +145,6 @@ body {
     color: black !important;
     font-weight: bold !important;
 }
-
 
 /* Footer */
 .footer-pai {

@@ -1,0 +1,29 @@
+/*Responsive mobile (900) - NAV*/
+@media (max-width: 900px) {
+    .collapse ul {
+        margin: 0px !important;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 900px) {
+    .navbar-toggler-icon {
+        background-color: #fceabb;
+        border-radius: 5px;
+        margin-left: 500px;
+    }
+}
+
+@media (max-width: 900px) {
+    .pesquisa {
+        border-radius: 5px;
+        /* margin-left: 550px; */
+        padding: 10px;
+    }
+}
+
+@media (max-width: 900px) {
+    .pesquisaDiv {
+        width: 640px;
+    }
+}

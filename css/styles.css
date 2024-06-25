@@ -8,7 +8,7 @@ body {
 }
 
 .navbar {
-    background-color: #000;
+    background-color: #000 !important;
 }
 
 .navbar .nav-link {
@@ -21,15 +21,46 @@ body {
     font-weight: bold;
 }
 
+.logoDaLivraria img{
+    height: 50px;
+    width: 50px;
+    margin: 10px 10px 10px 10px;
+}
+
+.navbar-toggler-icon {
+    background-color: #fceabb;
+    border-radius: 5px;
+}
+
+.pesquisa {
+    display: flex;
+}
+
+.pesquisaBotao {
+    margin: 1px 10px 10px 10px;
+}
+
 .form-control {
-    font-size: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    outline: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border: 2px solid #000;
+    outline: none;
+    box-shadow: none;
 }
 
 #btn {
+    margin-top: 10px;
     color: #fff;
     border-color: #fceabb;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 #btn:hover {
@@ -37,12 +68,15 @@ body {
     color: #000;
     font-weight: bold;
 }
-
 /*dropdown-menu*/
+
+.collapse {
+    margin: 0px 10px 0px 10px;
+}
+
 .collapse ul {
- margin: 0px 12px 0px 12px;
- padding: 10px;
- background-color: #000;
+    margin: 0px 12px 0px 390px;
+    padding: 10px;
 }
 
 .direcionamento  {
@@ -83,16 +117,16 @@ body {
 
 /*titulo card*/
 .card-title {
-    font-size: 39px;
+    font-size: 24px;
     font-weight: bold;
 }
 
 .card-text  {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .subtitulo {
-    font-size: 24px;
+    font-size: 15px;
 }
 
 /*paragrafos*/
@@ -118,7 +152,7 @@ body {
 .footer-pai {
     background-color: #000;
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .paragrafo {
@@ -126,7 +160,8 @@ body {
 }
 
 .formaDePagamento-titulo, .atendimento-titulo {
-    font-size: 20px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .footerFilho > div {
@@ -140,7 +175,7 @@ body {
 }
 
 .clicavel {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .clicavel:hover {
@@ -150,4 +185,5 @@ body {
 .footerDesenvolvido {
     word-break: break-word;
     margin-bottom: 10px;
+    font-size: 13px;
 }
