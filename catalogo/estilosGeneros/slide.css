@@ -29,6 +29,16 @@ body {
     margin: 50px;
 }
 
+.carousel {
+    /* height: 300px; */
+    /* width: 200px; */
+}
+
+.card {
+    height: 500px;
+    width: 200px;
+}
+
 /* Botões de navegação do carrossel */
 .prev,
 .next {
@@ -81,28 +91,56 @@ body {
 
 /* Estilo das imagens dos cards */
 .card img {
-    margin-left: 10px;
+    margin-left: 30px;
     height: 190px;
     width: 160px;
+    border-radius: 10px;
 }
 
 /* Estilo dos textos dos cards */
-.card-title-um, .card-title-dois,
+.card-title-um,
+.card-title-dois,
 .card-title-tres,
-.card-title-quatro,
+.card-title-quatro {
+    font-weight: bold;
+    font-size: 15px;
+    /* white-space: nowrap; */
+    overflow-wrap: break-word;
+}
+
 .card-title-cinco {
     font-weight: bold;
-    font-size: 20px;
-    white-space: nowrap;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.card-title-quinze {
+    font-weight: bold;
+    font-size: 15px;
+    overflow-wrap: break-word;
 }
 
 /* Estilo dos parágrafos e valores dos cards */
 .card-paragrafo-um,
 .card-paragrafo-dois,
-.card-paragrafo-tres,
-.card-paragrafo-quatro,
+.card-paragrafo-tres
+{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.card-paragrafo-quatro {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
 .card-paragrafo-cinco {
-    margin-top: 40px;
+    margin-top:2px;
+    font-size: 20px;
+}
+
+.card-paragrafo-quinze {
+    margin-top:2px;
     font-size: 20px;
 }
 
@@ -111,7 +149,12 @@ body {
 .card-valor-tres,
 .card-valor-quatro,
 .card-valor-cinco {
-    margin-top: 35px;
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.card-valor-quinze {
+    margin-top: -5px;
     font-size: 30px;
 }
 
@@ -120,7 +163,11 @@ body {
 .card-ValorParcelado-tres,
 .card-ValorParcelado-quatro,
 .card-ValorParcelado-cinco {
-    font-size: 18px;
+    font-size: 14px;
+}
+
+.card-ValorParcelado-quinze {
+    font-size: 14px;
 }
 
 /* Ajuste de altura das imagens */

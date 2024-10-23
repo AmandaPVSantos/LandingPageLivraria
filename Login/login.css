@@ -17,6 +17,20 @@ body {
     font-style: italic;
 }
 
+.form-control:focus {
+    border-color: #cccccc;
+    outline: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+
+  .form-check-input:focus {
+    border-color: #cccccc;
+    outline: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+
 .formLogin {
     margin: 4%;
 }
@@ -38,6 +52,15 @@ body {
 
 .recuperarSenhaPrincipal {
     margin-left: -100px;
+    
+}
+
+a .recuperarSenhaPrincipal, .cadastro {
+    color: #000 !important;
+}
+
+a .recuperarSenhaPrincipal, .cadastro:hover {
+    color: #fff !important;
 }
 
 .recuperarSenha{

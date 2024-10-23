@@ -1,29 +1,31 @@
-/*Responsive mobile (900) - NAV*/
+/* Estilos para dispositivos móveis (largura máxima de 900px) */
 @media (max-width: 900px) {
-    .collapse ul {
-        margin: 0px !important;
-        padding: 10px;
+    .navbar-toggler {
+        margin-left: 600px;
     }
-}
 
-@media (max-width: 900px) {
-    .navbar-toggler-icon {
-        background-color: #fceabb;
-        border-radius: 5px;
-        margin-left: 500px;
+    .pesquisa input {
+        margin: 12px;
+        width: 700px;
     }
-}
 
-@media (max-width: 900px) {
-    .pesquisa {
-        border-radius: 5px;
-        /* margin-left: 550px; */
-        padding: 10px;
-    }
-}
-
-@media (max-width: 900px) {
     .pesquisaDiv {
-        width: 640px;
+        width: 700px;
+    }
+
+    [data-tooltip]:hover::after {
+        transform: translateX(-400%) translateY(-10%);
+    }
+}
+
+/* Estilos para dispositivos móveis (largura máxima de 900px) */
+@media (max-width: 700px) {
+    .navbar-toggler {
+        margin-left: 10px;
+    }
+
+    .pesquisa input {
+        margin: 0px;
+        width: 599px;
     }
 }
