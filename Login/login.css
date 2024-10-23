@@ -12,7 +12,7 @@ body {
 
 .areaLogin {
     margin: 4%;
-    font-family: "Roboto", sans-serif;
+    font-family: "Playwrite PL", cursive;
     font-weight: 500;
     font-style: italic;
 }
@@ -36,7 +36,6 @@ body {
 }
 
 .formLoginMainMaster {
-    /* margin-top: 15%; */
     margin-left: 30%;
     margin-right: 30%;
     padding: 3px;
@@ -52,19 +51,24 @@ body {
 
 .recuperarSenhaPrincipal {
     margin-left: -100px;
-    
 }
 
-a .recuperarSenhaPrincipal, .cadastro {
+#recuperarSenha {
     color: #000 !important;
+    margin-left: 100px;
 }
 
-a .recuperarSenhaPrincipal, .cadastro:hover {
+#facaCadastro {
+    color: #000 !important;
+    margin-left: 1px;
+}
+
+#recuperarSenha:hover {
     color: #fff !important;
 }
 
-.recuperarSenha{
-    margin-left: 100px;
+#facaCadastro:hover {
+    color: #fff !important;
 }
 
 #exampleInputEmail1, #exampleInputPassword1 {
