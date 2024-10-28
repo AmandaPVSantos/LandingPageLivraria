@@ -1,9 +1,52 @@
 .favorito-icone {
-    /* height: 50px;
-    width: 50px; */
+    height:50px;
+    width: 50px;
     font-size: 26px;
     cursor: pointer;
-    /* font-weight: bold; */
+}
 
-    /* background-color: pink; */
+.icone_catalogo_favorito:hover .bi-heart {
+    content: "\f004"; 
+    font-weight: bold;
+}
+
+
+/*pop-up*/
+/* .feedback-popup {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    font-size: 14px;
+    transition: opacity 0.3s ease;
+} */
+
+/* .feedback-popup.show {
+    display: block;
+    opacity: 1;
+} */
+
+
+.feedback-popup {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    font-size: 14px;
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+}
+
+.feedback-popup.show {
+    opacity: 1;
 }

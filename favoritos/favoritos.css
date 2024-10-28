@@ -1,33 +1,7 @@
-h1 {
-    font-family: "Playwrite PL", cursive;
+.favoritos-secao {
+    /* background-color: yellow; */
+    /* font-family: "Playwrite PL", cursive; */
     text-align: center;
-}
-
-.main {
-    /* background-color: red; */
-    margin: 20px;
-    /* height: 1000px; */
-    width: 97%;
-}
-
-.container_principal {
-    /* background-color: blue; */
-    margin: 20px;
-    /* height: 900px; */
-    width: 97%;
-
-    /* margin-top: 200px; */
-}
-
-.subcontainer_div {
-    /* background-color: green; */
-    margin: 20px;
-    /* height: 800px; */
-    width: 97%;
-}
-
-.estrutura_interna {
-    background-color: yellow;
     margin: 20px;
     padding: 20px;
     height: 700px;
@@ -35,6 +9,10 @@ h1 {
     align-items: center;
     /* margin-top: 200px; */
 
-    border: 30px solid red;
+    border: 1px solid rgb(85, 58, 58);
     border-radius: 20px;
+}
+
+.favoritos_titulo {
+    text-decoration: underline;
 }
