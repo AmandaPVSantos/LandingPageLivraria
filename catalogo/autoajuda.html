@@ -22,6 +22,14 @@
     <link rel="stylesheet" href="/catalogo/estilosGeneros/slideResponsivo.css">
     <link rel="stylesheet" href="/catalogo/estilosGeneros/slide.css">
 
+    <!--estilo do arquivo favoritos-->
+    <link rel="stylesheet" href="/catalogo/estilosGeneros/catalogoFavoritos.css">
+    <link rel="stylesheet" href="/favoritos/favoritos.css">
+
+    <!--estilo do arquivo minha cesta-->
+    <link rel="stylesheet" href="/catalogo/estilosGeneros/catalogoCarrinho.css">
+    <link rel="stylesheet" href="/minhaCesta/minhsCesta.css">
+
     <!--estilo padrão das paginas-->
     <link rel="stylesheet" href="/css/responsive.css">
     <link rel="stylesheet" href="/css/styles.css">
@@ -123,14 +131,22 @@
             <div class="carousel-container">
                 <div class="carousel d-flex justify-content-center ">
                     <!--primeiro card-->
-                    <div class=" card text-center p-3" style="width: 18rem;">
-                        <img src="/assets/images/autoajuda/livro_auto_ajuda1.png" class="card-img-top" alt="...">
+                    <div class="card text-center p-3 d-flex" style="width: 18rem;"> 
+                        <div class="favorito-icone d-flex">
+                            <span class="me-auto"></span>
+                            <i class="bi bi-heart ms-auto"></i>
+                          </div>
+                        <div>
+                            <img src="/assets/images/autoajuda/livro_auto_ajuda1.png" class="card-img-top" alt="...">
+                        </div>
                             <div class="card-body">
                                 <h6 class="card-title-um">SEJA FODA!</h6>
                                 <p class="card-paragrafo-um">Caio Carneiro</p>
                                 <h6 class="card-valor-um">R$ 25,00</h6>
                                 <p class="card-ValorParcelado-um">ou 2x de R$ 12,50</p>
                                 <a href="#" class="btn" id="botaoComprar">Comprar</a>
+                                <!-- Botão para adicionar aos favoritos -->
+                                <button >Adicionar aos Favoritos</button>
                             </div>
                     </div>
     
@@ -474,5 +490,13 @@
 
     <!-- arquivo script -->
     <script src="/catalogo/estilosGeneros/slide.js"></script>
+
+    <!-- arquivo favorito -->
+     <script src="/catalogo/estilosGeneros/catalogoFavorito.js"></script>
+     <script src="/favoritos/favoritos.js"></script>
+
+    <!-- arquivo carrinho -->
+    <script src="/catalogo/estilosGeneros/catalogoCarrinho.js"></script>
+    <script src="/minhaCesta/minhaCesta.js"></script>
 </body>
 </html>
