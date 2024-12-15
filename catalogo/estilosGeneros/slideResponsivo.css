@@ -1,0 +1,226 @@
+/* Media Queries */
+@media (max-width: 1200px) {
+    .texto-titulo-catalogo {
+        margin: 70px;
+    }
+    
+    .titulo-catalogo {
+        font-size: 30px;
+    }
+
+    /* .card img {
+         height: 100px;
+        width: 150px; 
+    } */
+
+    .card-title-um, .card-title-dois, .card-title-tres, .card-title-quatro, .card-title-cinco {
+        font-size: 18px;
+    }
+
+    .card-paragrafo-um,
+    .card-paragrafo-dois,
+    .card-paragrafo-tres,
+    .card-paragrafo-quatro,
+    .card-paragrafo-cinco {
+        font-size: 18px;
+    }
+
+    .card-valor-um,
+    .card-valor-dois,
+    .card-valor-tres,
+    .card-valor-quatro,
+    .card-valor-cinco {
+        font-size: 26px;
+    }
+
+    .card-ValorParcelado-um,
+    .card-ValorParcelado-dois,
+    .card-ValorParcelado-tres,
+    .card-ValorParcelado-quatro,
+    .card-ValorParcelado-cinco {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    .texto-titulo-catalogo {
+        margin: 50px;
+    }
+
+    .titulo-catalogo {
+        font-size: 28px;
+    }
+
+    .card {
+        width: 16rem;
+    }
+
+    .card img {
+        margin-left: 40px;
+        height: 220px;
+        width: 150px;
+    }
+
+    .card-title-um, .card-title-dois, .card-title-tres, .card-title-quatro, .card-title-cinco {
+        font-size: 16px;
+    }
+
+    .card-paragrafo-um,
+    .card-paragrafo-dois,
+    .card-paragrafo-tres,
+    .card-paragrafo-quatro,
+    .card-paragrafo-cinco {
+        font-size: 16px;
+    }
+
+    .card-valor-um,
+    .card-valor-dois,
+    .card-valor-tres,
+    .card-valor-quatro,
+    .card-valor-cinco {
+        font-size: 24px;
+    }
+
+    .card-ValorParcelado-um,
+    .card-ValorParcelado-dois,
+    .card-ValorParcelado-tres,
+    .card-ValorParcelado-quatro,
+    .card-ValorParcelado-cinco {
+        font-size: 14px;
+    }
+
+    .prev, .next {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .prev {
+        left: -40px;
+    }
+
+    .next {
+        right: -40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .texto-titulo-catalogo {
+        margin: 30px;
+    }
+
+    .titulo-catalogo {
+        font-size: 25px;
+    }
+
+    .card {
+        width: 14rem;
+    }
+
+    .card img {
+        margin-left: 30px;
+        height: 200px;
+        width: 130px;
+    }
+
+    .card-title-um, .card-title-dois, .card-title-tres, .card-title-quatro, .card-title-cinco {
+        font-size: 14px;
+    }
+
+    .card-paragrafo-um,
+    .card-paragrafo-dois,
+    .card-paragrafo-tres,
+    .card-paragrafo-quatro,
+    .card-paragrafo-cinco {
+        font-size: 14px;
+    }
+
+    .card-valor-um,
+    .card-valor-dois,
+    .card-valor-tres,
+    .card-valor-quatro,
+    .card-valor-cinco {
+        font-size: 22px;
+    }
+
+    .card-ValorParcelado-um,
+    .card-ValorParcelado-dois,
+    .card-ValorParcelado-tres,
+    .card-ValorParcelado-quatro,
+    .card-ValorParcelado-cinco {
+        font-size: 12px;
+    }
+
+    .prev, .next {
+        font-size: 20px;
+        padding: 8px;
+    }
+
+    .prev {
+        left: -30px;
+    }
+
+    .next {
+        right: -30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .texto-titulo-catalogo {
+        margin: 20px;
+    }
+
+    .titulo-catalogo {
+        font-size: 20px;
+    }
+
+    .card {
+        width: 12rem;
+    }
+
+    .card img {
+        margin-left: 20px;
+        height: 180px;
+        width: 120px;
+    }
+
+    .card-title-um, .card-title-dois, .card-title-tres, .card-title-quatro, .card-title-cinco {
+        font-size: 12px;
+    }
+
+    .card-paragrafo-um,
+    .card-paragrafo-dois,
+    .card-paragrafo-tres,
+    .card-paragrafo-quatro,
+    .card-paragrafo-cinco {
+        font-size: 12px;
+    }
+
+    .card-valor-um,
+    .card-valor-dois,
+    .card-valor-tres,
+    .card-valor-quatro,
+    .card-valor-cinco {
+        font-size: 20px;
+    }
+
+    .card-ValorParcelado-um,
+    .card-ValorParcelado-dois,
+    .card-ValorParcelado-tres,
+    .card-ValorParcelado-quatro,
+    .card-ValorParcelado-cinco {
+        font-size: 10px;
+    }
+
+    .prev, .next {
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .prev {
+        left: -20px;
+    }
+
+    .next {
+        right: -20px;
+    }
+}

@@ -1,0 +1,178 @@
+/*NAV*/
+.navbar {
+    background-color: #000 !important;
+    /* font-size: 1px !important; */
+}
+
+.navbar .nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar .nav-link:hover {
+    color: #fceabb;
+    font-weight: bold;
+}
+
+.nav-item a:hover {
+    color: #fceabb;
+}
+
+.navbar-toggler-icon {
+    background-color: #fceabb;
+    border-radius: 5px;
+}
+
+/* Tooltip container */
+[data-tooltip] {
+    position: relative;
+    cursor: pointer;
+}
+
+/* Tooltip texto */
+[data-tooltip]::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%);
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s, visibility 0.2s;
+    font-size: 14px;
+    z-index: 1;
+}
+
+/* Mostrar o texto - tooltip - ao passar o mouse */
+[data-tooltip]:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+/*Logo da livraria*/
+.logoDaLivraria img{
+    height: 50px;
+    width: 50px;
+    margin: 10px 10px 10px 10px;
+}
+
+/*Pesquisa - input*/
+.pesquisa input {
+    margin-top: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    outline: none;
+    box-shadow: none;
+}
+
+.pesquisa input:focus {
+    border: 2px solid #000;
+    outline: none;
+    box-shadow: none;
+}
+
+
+/*Botao pesquisar*/
+#btn {
+    margin-top: 10px;
+    color: #fff;
+    border-color: #fceabb;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#btn:hover {
+    background-color: #fceabb;
+    color: #000;
+    font-weight: bold;
+}
+
+/*dropdown-menu*/
+.collapse {
+    margin: 0px;
+    justify-content: center;
+}
+
+.collapse ul {
+    margin: 12px 12px 0px 10px;
+    padding: 10px;
+}
+
+.direcionamento  {
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px !important;
+}
+
+.direcionamento-link {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/*Conteudo principal*/
+.conteudo-secundario-home {
+    margin: 5% 15% 2% 15%;
+}
+
+/*content card*/
+.card-title {
+    font-family: "Playwrite PL", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/*titulo card*/
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-text  {
+    font-size: 15px;
+}
+
+.subtitulo {
+    font-size: 15px;
+}
+
+/*paragrafos*/
+.conteudo-paragrafoSecundario {
+    margin: 30px 0px 0px 0px;
+}
+
+.home-subtitulo, .titulo-principal {
+    margin-bottom: 2%;
+}
+
+.conteudo-paragrafoTerceiro {
+    margin: 30px 0px 0px 0px;
+}
+
+/*dropdown-menu*/
+.dropdownList ul {
+    padding: 2px;
+}
+
+.dropdownList li {
+    margin-bottom: 5px; /* Espaço entre os itens */
+}
+
+.dropdown-menu {
+    margin-right: 100px;
+    background-color: #000;
+}
+
+.direcionamento {
+    text-decoration: none;
+    padding: 10px;
+}

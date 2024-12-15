@@ -1,0 +1,41 @@
+/*footer*/
+.footer-pai {
+    background-color: #000;
+    color: #fff;
+}
+
+.atendimento-titulo h6 {
+    font-size:18px !important;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.paragrafo {
+    margin-top: 20px;
+    font-size: 13px !important;
+    cursor: pointer;
+}
+
+.footerFilho > div {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-formaDePagamento img {
+    margin: 5px;
+}
+
+.clicavel:hover {
+    cursor: pointer;
+}
+
+.footerDesenvolvido {
+    word-break: break-word;
+    margin-bottom: 10px;
+    font-size: 13px !important;
+}
+
+/* .criadoraDoSite {
+    font-size: 40px !important;
+} */

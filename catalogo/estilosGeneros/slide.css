@@ -1,0 +1,199 @@
+/* Importação de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Ajuste de box-sizing */
+*, ::after, ::before {
+    box-sizing: border-box; /* Corrigido para incluir padding e border no tamanho total do elemento */
+}
+
+/* Estilo básico do corpo */
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+/* Título e subtítulo do catálogo */
+.texto-titulo-catalogo {
+    font-family: "Playwrite PL", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 90px;
+}
+
+/* Carrossel */
+.carousel-container {
+    position: relative;
+    padding: 10px;
+    margin: 50px;
+}
+
+.carousel {
+    /* height: 300px; */
+    /* width: 200px; */
+}
+
+.card {
+    height: 500px;
+    width: 200px;
+}
+
+/* Botões de navegação do carrossel */
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    padding: 15px;
+    z-index: 1000;
+    opacity: 1;
+}
+
+.prev i,
+.next i {
+    font-size: 50px;
+}
+
+.prev {
+    left: -60px;
+}
+
+.next {
+    right: -60px;
+}
+
+.prev:hover,
+.next:hover {
+    color: #000;
+    opacity: 1;
+}
+
+/* Título principal do catálogo */
+.titulo-catalogo {
+    background-color: red;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+/* Parágrafos principais */
+.paragrafo-autoajuda-main {
+    margin-top: 30px;
+}
+
+.paragrafo-autoajuda {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Estilo das imagens dos cards */
+.card img {
+    margin-left: 30px;
+    height: 190px;
+    width: 160px;
+    border-radius: 10px;
+}
+
+/* Estilo dos textos dos cards */
+.card-title-um,
+.card-title-dois,
+.card-title-tres,
+.card-title-quatro {
+    font-weight: bold;
+    font-size: 15px;
+    /* white-space: nowrap; */
+    overflow-wrap: break-word;
+}
+
+.card-title-cinco {
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.card-title-quinze {
+    font-weight: bold;
+    font-size: 15px;
+    overflow-wrap: break-word;
+}
+
+/* Estilo dos parágrafos e valores dos cards */
+.card-paragrafo-um,
+.card-paragrafo-dois,
+.card-paragrafo-tres
+{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.card-paragrafo-quatro {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.card-paragrafo-cinco {
+    margin-top:2px;
+    font-size: 20px;
+}
+
+.card-paragrafo-quinze {
+    margin-top:2px;
+    font-size: 20px;
+}
+
+.card-valor-um,
+.card-valor-dois,
+.card-valor-tres,
+.card-valor-quatro,
+.card-valor-cinco {
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.card-valor-quinze {
+    margin-top: -5px;
+    font-size: 30px;
+}
+
+.card-ValorParcelado-um,
+.card-ValorParcelado-dois,
+.card-ValorParcelado-tres,
+.card-ValorParcelado-quatro,
+.card-ValorParcelado-cinco {
+    font-size: 14px;
+}
+
+.card-ValorParcelado-quinze {
+    font-size: 14px;
+}
+
+/* Ajuste de altura das imagens */
+.img-tres, .img-quatro, .img-cinco {
+    height: 170px;
+}
+
+/* Estilo do botão de comprar */
+#botaoComprar {
+    background-color: #000 !important;
+    border: #000 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    margin-top: 9px !important;
+    height: 50px !important;
+    width: 170px !important;
+}
+
+#botaoComprar:hover {
+    background-color: #fceabb !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+/* Footer */
+.footer-pai {
+    margin-top: 30vh;
+}
