@@ -1,0 +1,107 @@
+:root {
+    --main-bg-color: red;
+    --checked-bg-color: #000;
+    --checkmark-color: white;
+    --checkmark-size: 10px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.areaLogin {
+    margin: 4%;
+    font-family: "Playwrite PL", cursive;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.form-control:focus {
+    border-color: #cccccc;
+    outline: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+
+  .form-check-input:focus {
+    border-color: #cccccc;
+    outline: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+
+.formLogin {
+    margin: 4%;
+}
+
+.formLoginMainMaster {
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 3px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 3px solid #000;
+    border-radius: 20px;
+}
+
+.loginLink {
+    margin-top: 10px;
+}
+
+.recuperarSenhaPrincipal {
+    margin-left: -100px;
+}
+
+#recuperarSenha {
+    color: #000 !important;
+    margin-left: 100px;
+}
+
+#facaCadastro {
+    color: #000 !important;
+    margin-left: 1px;
+}
+
+#recuperarSenha:hover {
+    color: #fff !important;
+}
+
+#facaCadastro:hover {
+    color: #fff !important;
+}
+
+#exampleInputEmail1, #exampleInputPassword1 {
+    border-radius: 50px;
+}
+
+#botaoLogin {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 9px;
+    width: 100px;
+}
+
+#botaoLogin:hover {
+    background-color: #fceabb;
+    color: black;
+    font-weight: bold;
+}
+
+/*checkbox*/
+input[type="checkbox"].form-check-input {
+    
+    background-color: var(--checkmark-color);
+    border-color: #000;   
+}
+
+.form-check-input:checked[type=checkbox] {
+    --bs-form-check-bg-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e);
+    background-color: var(--checked-bg-color);
+}
+
+/*footer*/
+#footer-pai {
+    margin-top: 20%;
+}

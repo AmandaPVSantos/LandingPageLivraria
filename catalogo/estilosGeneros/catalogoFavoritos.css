@@ -5,10 +5,17 @@
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 /* .icone_catalogo_favorito:hover .bi-heart {
     content: "\f004"; 
     font-weight: bold;
 } */
+=======
+.icone_catalogo_favorito:hover .bi-heart {
+    content: "\f004"; 
+    font-weight: bold;
+}
+>>>>>>> 7aba58d6be99f6161ed20337f4c44da3db319799
 
 
 /*pop-up*/

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -120,4 +121,23 @@ body {
     color: #000;
     border-color: rgb(85, 58, 58);
     font-weight: bolder;
+=======
+.favoritos-secao {
+    /* background-color: yellow; */
+    /* font-family: "Playwrite PL", cursive; */
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    height: 700px;
+    width: 97%;
+    align-items: center;
+    /* margin-top: 200px; */
+
+    border: 1px solid rgb(85, 58, 58);
+    border-radius: 20px;
+}
+
+.favoritos_titulo {
+    text-decoration: underline;
+>>>>>>> 7aba58d6be99f6161ed20337f4c44da3db319799
 }

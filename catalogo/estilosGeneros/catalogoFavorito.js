@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Seleciona todos os ícones de favoritos
 const icons = document.querySelectorAll('.icone_catalogo_favorito i');
 
@@ -14,6 +15,20 @@ icons.forEach(icon => {
     });
 });
 
+=======
+// script - preencher o coração ao passar o mouse
+const icon = document.querySelector('.icone_catalogo_favorito i');
+
+icon.addEventListener('mouseenter', () => {
+    icon.classList.replace('bi-heart', 'bi-heart-fill');
+});
+
+icon.addEventListener('mouseleave', () => {
+    icon.classList.replace('bi-heart-fill', 'bi-heart');
+});
+
+
+>>>>>>> 7aba58d6be99f6161ed20337f4c44da3db319799
 // script - Inserir informações do livro em favoritos.
 document.addEventListener("DOMContentLoaded", function() {
     const favoritoBtns = document.querySelectorAll(".favorito-btn");
@@ -39,6 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+<<<<<<< HEAD
 
 
 
@@ -86,3 +102,5 @@ document.addEventListener("DOMContentLoaded", function() {
 //     });
 // });
 
+=======
+>>>>>>> 7aba58d6be99f6161ed20337f4c44da3db319799
