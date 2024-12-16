@@ -5,10 +5,10 @@
     cursor: pointer;
 }
 
-.icone_catalogo_favorito:hover .bi-heart {
+/* .icone_catalogo_favorito:hover .bi-heart {
     content: "\f004"; 
     font-weight: bold;
-}
+} */
 
 
 /*pop-up*/

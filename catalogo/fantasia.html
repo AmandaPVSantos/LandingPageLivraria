@@ -22,6 +22,14 @@
     <link rel="stylesheet" href="/catalogo/estilosGeneros/slideResponsivo.css">
     <link rel="stylesheet" href="/catalogo/estilosGeneros/slide.css">
 
+    <!--estilo do arquivo favoritos-->
+    <link rel="stylesheet" href="/catalogo/estilosGeneros/catalogoFavoritos.css">
+    <link rel="stylesheet" href="/favoritos/favoritos.css">
+
+    <!--estilo do arquivo minha cesta-->
+    <link rel="stylesheet" href="/catalogo/estilosGeneros/catalogoCarrinho.css">
+    <link rel="stylesheet" href="/minhaCesta/minhsCesta.css">
+
     <!--estilo padrão das paginas-->
     <link rel="stylesheet" href="/css/responsive.css">
     <link rel="stylesheet" href="/css/styles.css">
@@ -124,26 +132,48 @@
                 <div class="carousel d-flex justify-content-center ">
                     <!--primeiro card-->
                     <div class=" card text-center p-3" style="width: 18rem;">
-                        <img src="/assets/images/fantasia/fantasia1.webp" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h6 class="card-title-um">HARRY POTTER</h6>
-                                <p class="card-paragrafo-um">J. K. Rowling</p>
-                                <h6 class="card-valor-um">R$ 150,00</h6>
-                                <p class="card-ValorParcelado-um">ou 2x de R$ 75,00</p>
-                                <a href="#" class="btn" id="botaoComprar">Comprar</a>
+                        <!--Botão favorito "heart"-->
+                        <div class="favorito-icone d-flex">
+                            <div class="icone_catalogo_favorito">
+                                <span class="me-auto"></span>
+                                <i class="bi bi-heart ms-auto favorito-btn"></i>
                             </div>
+                        </div>
+
+                        <div>
+                            <img src="/assets/images/fantasia/fantasia1.webp" class="card-img-top" alt="...">
+                        </div>
+
+                        <div class="card-body">
+                            <h6 class="card-title-um">HARRY POTTER</h6>
+                            <p class="card-paragrafo-um">J. K. Rowling</p>
+                            <h6 class="card-valor-um">R$ 150,00</h6>
+                            <p class="card-ValorParcelado-um">ou 2x de R$ 75,00</p>
+                            <a href="#" class="btn" id="botaoComprar">Comprar</a>
+                        </div>
                     </div>
     
                     <!--segundo card-->
                     <div class=" card text-center p-3" style="width: 18rem;">
-                        <img src="/assets/images/fantasia/fantasia2.webp" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h6 class="card-title-dois">THE DRAGON'S WHISPER</h6>
-                                <p class="card-paragrafo-dois">A. J. Rivers</p>
-                                <h6 class="card-valor-dois">R$ 64,00</h6>
-                                <p class="card-ValorParcelado-dois">ou 2x de R$ 32,00</p>
-                                <a href="#" class="btn" id="botaoComprar">Comprar</a>
+                        <!--Botão favorito "heart"-->
+                        <div class="favorito-icone d-flex">
+                            <div class="icone_catalogo_favorito">
+                                <span class="me-auto"></span>
+                                <i class="bi bi-heart ms-auto favorito-btn"></i>
                             </div>
+                        </div>
+
+                        <div>
+                            <img src="/assets/images/fantasia/fantasia2.webp" class="card-img-top" alt="...">
+                        </div>
+
+                        <div class="card-body">
+                            <h6 class="card-title-dois">THE DRAGON'S WHISPER</h6>
+                            <p class="card-paragrafo-dois">A. J. Rivers</p>
+                            <h6 class="card-valor-dois">R$ 64,00</h6>
+                            <p class="card-ValorParcelado-dois">ou 2x de R$ 32,00</p>
+                            <a href="#" class="btn" id="botaoComprar">Comprar</a>
+                        </div>
                     </div>
     
                     <!--terceiro card-->
@@ -438,5 +468,13 @@
 
     <!-- arquivo script -->
     <script src="/catalogo/estilosGeneros/slide.js"></script>
+
+    <!-- arquivo favorito -->
+    <script src="/catalogo/estilosGeneros/catalogoFavorito.js"></script>
+    <script src="/favoritos/favoritos.js"></script>
+
+   <!-- arquivo carrinho -->
+   <script src="/catalogo/estilosGeneros/catalogoCarrinho.js"></script>
+   <script src="/minhaCesta/minhaCesta.js"></script>
 </body>
 </html>

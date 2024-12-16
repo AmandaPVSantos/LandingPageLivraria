@@ -1,18 +1,123 @@
-.favoritos-secao {
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    background-color: #fceabb !important;
+    /* font-size: 20px; */
+}
+
+.section_favoritos {
     /* background-color: yellow; */
-    /* font-family: "Playwrite PL", cursive; */
     text-align: center;
     margin: 20px;
     padding: 20px;
-    height: 700px;
     width: 97%;
     align-items: center;
-    /* margin-top: 200px; */
-
-    border: 1px solid rgb(85, 58, 58);
-    border-radius: 20px;
+    border: 1px solid rgb(85, 58, 58); /*- COR BORDA*/
+    border-radius: 20px; /*- ARREDONDAMENTO DA BORDA*/
 }
 
-.favoritos_titulo {
-    text-decoration: underline;
+.favoritos_titulo h2{
+    /* background-color: orange; */
+    margin: 4%;
+    font-family: "Playwrite PL", cursive;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 40px;
+}
+
+
+/* Estilo dos cards na pagina favoritos */
+.container_conteudo_livros {
+    display: flex; /* Ativa o Flexbox */
+    flex-wrap: wrap; /* Faz os itens quebrarem para a próxima linha quando necessário */
+    gap: 1rem; /* Espaçamento entre os itens */
+    justify-content: center; /* Centraliza os itens no container */
+}
+
+.container_conteudo_livros .card {
+    flex: 0 1 calc(25% - 1rem); /* Cada cartão ocupa 25% do espaço menos o gap */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
+    border: 1px solid #ccc; /* Adiciona uma borda leve */
+
+    height: 300px;
+    width: 200px;
+
+    align-items: center;
+    
+
+    /* background-color: red; */
+}
+
+.container_conteudo_livros .card img {
+    height: 100px;
+    width: 200px; 
+}
+
+.container_conteudo_livros .card h6, p{
+    /* font-size: 20px; */
+    font-family: "Roboto", sans-serif;
+}
+
+/* @media (max-width: 768px) {
+    .livros-container .card {
+        flex: 0 1 calc(50% - 1rem); 
+    }
+}
+
+@media (max-width: 480px) {
+    .livros-container .card {
+        flex: 0 1 calc(100% - 1rem);
+    }
+} */
+
+
+
+/* ESTILO PARA O BOTAO - LIMPAR FAV: */
+/* Botão Limpar - Estilo Inicial */
+#botao_limpar_lista_fav button {
+    background-color: #000;
+    color: #fff;
+    border: solid 3px #000;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: color 0.3s, background-color 0.3s, border-color 0.3s;
+}
+
+/* Elemento de destaque para o efeito */
+#botao_limpar_lista_fav button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(222, 169, 109); /* Cor ao passar o mouse */
+    font-weight: bolder;
+    z-index: 1;
+    transition: left 0.3s;
+}
+
+
+
+/* ESTILO - BOTAO - LIMPAR FAVORITOS */
+/* Estilo do texto por cima do destaque */
+#botao_limpar_lista_fav button span {
+    position: relative;
+    z-index: 2;
+}
+
+/* Hover - Efeito de deslizamento */
+#botao_limpar_lista_fav button:hover::before {
+    left: 0;
+}
+
+/* Alterar cor do texto durante o hover */
+#botao_limpar_lista_fav button:hover {
+    color: #000;
+    border-color: rgb(85, 58, 58);
+    font-weight: bolder;
 }

@@ -1,15 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&family=Roboto:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-body {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    background-color: #fceabb !important;
-}
-
 /*NAV*/
 .navbar {
     background-color: #000 !important;
+    /* font-size: 1px !important; */
 }
 
 .navbar .nav-link {
@@ -115,7 +107,7 @@ body {
 .direcionamento  {
     color: #fff;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 16px !important;
 }
 
 .direcionamento-link {
@@ -183,51 +175,4 @@ body {
 .direcionamento {
     text-decoration: none;
     padding: 10px;
-}
-
-/*footer*/
-.footer-pai {
-    background-color: #000;
-    color: #fff;
-    font-size: 15px;
-}
-
-.atendimento-titulo h6 {
-    font-size: 14px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.paragrafo {
-    margin-top: 20px;
-    font-size: 10px;
-    cursor: pointer;
-}
-
-.footerFilho > div {
-    flex: 1;
-    margin: 10px;
-    min-width: 200px;
-}
-
-.footer-formaDePagamento img {
-    margin: 5px;
-}
-
-.clicavel {
-    /* font-size: 14px; */
-}
-
-.clicavel:hover {
-    cursor: pointer;
-}
-
-.footerDesenvolvido {
-    word-break: break-word;
-    margin-bottom: 10px;
-    font-size: 13px;
-}
-
-.criadoraDoSite {
-    font-size: 12px;
 }
