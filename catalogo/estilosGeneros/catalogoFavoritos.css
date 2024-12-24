@@ -5,10 +5,24 @@
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 /* .icone_catalogo_favorito:hover .bi-heart {
     content: "\f004"; 
     font-weight: bold;
 } */
+=======
+<<<<<<< HEAD
+/* .icone_catalogo_favorito:hover .bi-heart {
+    content: "\f004"; 
+    font-weight: bold;
+} */
+=======
+.icone_catalogo_favorito:hover .bi-heart {
+    content: "\f004"; 
+    font-weight: bold;
+}
+>>>>>>> 7aba58d6be99f6161ed20337f4c44da3db319799
+>>>>>>> 6b74727b9a67de0a00900b782895348a4c818991
 
 
 /*pop-up*/

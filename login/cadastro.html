@@ -4,56 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
-    <!--boostrap-->
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">    
-    
-<<<<<<< HEAD
-    <!--estilo página favoritos-->
-    <link rel="stylesheet" href="/favoritos/favoritos.css">
-    <link rel="stylesheet" href="/favoritos/responsividade_favoritos.css">
-    <link rel="stylesheet" href="/favoritos/header_fav.css">
-    <link rel="stylesheet" href="/favoritos/footer_fav.css">
 
-    <!--estilo-->
-    <!-- <link rel="stylesheet" href="/css/responsive.css">
-    <link rel="stylesheet" href="/css/styles.css"> -->
+    <!--estilo do arquivo cadastro-->
+    <link rel="stylesheet" href="/login/cadatro.css">
 
-    
-=======
-<<<<<<< HEAD
-    <!--estilo página favoritos-->
-    <link rel="stylesheet" href="/favoritos/favoritos.css">
-    <link rel="stylesheet" href="/favoritos/responsividade_favoritos.css">
-    <link rel="stylesheet" href="/favoritos/header_fav.css">
-    <link rel="stylesheet" href="/favoritos/footer_fav.css">
-
-    <!--estilo-->
-    <!-- <link rel="stylesheet" href="/css/responsive.css">
-    <link rel="stylesheet" href="/css/styles.css"> -->
-
-    
-=======
-    <!--estilo-->
+    <!--estilo padrão das paginas-->
     <link rel="stylesheet" href="/css/responsive.css">
     <link rel="stylesheet" href="/css/styles.css">
-
-    <!--estilo página favoritos-->
-    <link rel="stylesheet" href="/favoritos/favoritos.css">
->>>>>>> 7aba58d6be99f6161ed20337f4c44da3db319799
->>>>>>> 6b74727b9a67de0a00900b782895348a4c818991
-
+    
     <!--logo-->
     <title>Livraria</title>
     <link rel="icon" href="/assets/images/logo-livraria.png" type="image/png">
 </head>
-
 <body>
+    
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
@@ -129,87 +96,58 @@
         </nav>
     </header>
 
-    <!-- Conteúdo da Página de Favoritos -->
-    <main class="main my-5">
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 6b74727b9a67de0a00900b782895348a4c818991
-        <section class="section_favoritos">
-            <div class="principal">
-                <div class="container_da_pagina"> <!-- INCLUIR >>>  d-flex -->
-                    <div class="favoritos_titulo">
-                        <h2>Livros Favoritos</h2>
-                    </div>
-<<<<<<< HEAD
-=======
-        
-                    <div class="botao_limpar_lista_fav" id="botao_limpar_lista_fav">
-                        <button onclick="limparFavoritos()"><span>Limpar Favoritos</span></button>
-                    </div> 
-                    
-                    <div class="container_conteudo_livros" id="container_conteudo_livros">
-                        <div id="favoritos" class="favoritos-secao">
-                            <div class="sub_titulo">
-                                <!-- <h3>
-                                    Aqui vai aparecer os livros
-                                </h3> -->
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
+    <section class="cadastroMain p-5">
+        <div class="formContainer p-5" id="formContainer">
+            <div class="tituloCadastro text-center">
+                <h1>Faça seu cadastro</h1>
             </div>
-        </section>
-        <!-- 
-            
-        </div> -->
-    </main>
-
-=======
-
->>>>>>> 6b74727b9a67de0a00900b782895348a4c818991
-        
-                    <div class="botao_limpar_lista_fav" id="botao_limpar_lista_fav">
-                        <button onclick="limparFavoritos()"><span>Limpar Favoritos</span></button>
-                    </div> 
-                    
-                    <div class="container_conteudo_livros" id="container_conteudo_livros">
-                        <div id="favoritos" class="favoritos-secao">
-                            <div class="sub_titulo">
-                                <!-- <h3>
-                                    Aqui vai aparecer os livros
-                                </h3> -->
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-        <!-- 
-            
-        </div> -->
-    </main>
-
-<<<<<<< HEAD
-=======
-
     
+            <div class="cadastroConteudo">
+                <form class="formCadastro">
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Nome Completo</label>
+                        <input type="password" class="form-control" placeholder="Nome Completo" id="exampleInputPassword1">
+                    </div>
 
->>>>>>> 7aba58d6be99f6161ed20337f4c44da3db319799
->>>>>>> 6b74727b9a67de0a00900b782895348a4c818991
-    <footer class="footer-pai text-center p-5">
+                    <div class="cadastro mb-3">
+                      <label for="exampleInputEmail1" class="form-label">E-mail</label>
+                      <input type="email" class="form-control" placeholder="nome@gmail.com" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Telefone</label>
+                      <input type="password" class="form-control" placeholder="Telefone" id="exampleInputPassword1">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Criar Senha</label>
+                        <input type="password" class="form-control" placeholder="Criar Senha" id="exampleInputPassword1">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Criar Senha</label>
+                        <input type="password" class="form-control" placeholder="Confirmar Senha" id="exampleInputPassword1">
+                    </div>
+
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Concorda com os termos</label>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn" id="botaoCadastro">Enviar</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-pai text-center p-5" id="footer-pai">
         <div class="footerFilho d-flex justify-content-around">
             <div class="atendimento">
-                <div class="atendimento-titulo">
-                    <h6>Atendimento</h6>
-                </div>
-                <div class="paragrafo">
-                    <p>Política de Vendas, Trocas e Privacidade</p>
-                    <p>Termos e Condições de Compra</p>
-                    <p>Fale Conosco</p>
-                </div>
+                <h6>Atendimento</h6>
+                <p class="clicavel">Política de Vendas, Trocas e Privacidade</p>
+                <p class="clicavel">Termos e Condições de Compra</p>
+                <p class="clicavel">Fale Conosco</p>
             </div>
             <div class="footerDesenvolvido container mb-5 p-5">
                 <p>
@@ -220,7 +158,7 @@
                 </p>
             </div>
             <div class="footer-formaDePagamento p-2">
-                <h6 class="formaDePagamento-titulo">Formas de pagamento:</h6>
+                <h6>Formas de pagamento:</h6>
                 <img class="clicavel" src="/assets/icons/forma de pagamento/payment-american-express.svg" alt="forma de pagamento american express">
                 <img class="clicavel" src="/assets/icons/forma de pagamento/payment-elo.svg" alt="forma de pagamento elo">
                 <img class="clicavel" src="/assets/icons/forma de pagamento/payment-hipercard.svg" alt="forma de pagamento hipercard">
@@ -229,43 +167,18 @@
             </div>
             
         </div>
-        <div class="footerDesenvolvido">
+        <div>
             <p>
-                <i class="bi bi-c-circle" id="criadoraDoSite"></i>
+                <i class="bi bi-c-circle"></i>
                     2024 Desenvolvido por Amanda
             </p>
         </div>
     </footer>
 
-<<<<<<< HEAD
-    <!--script página favoritos-->
-    <script type="text/javascript" src="/favoritos/favoritos.js"></script>
-
-=======
-<<<<<<< HEAD
-    <!--script página favoritos-->
-    <script type="text/javascript" src="/favoritos/favoritos.js"></script>
-
-=======
->>>>>>> 7aba58d6be99f6161ed20337f4c44da3db319799
->>>>>>> 6b74727b9a67de0a00900b782895348a4c818991
-    <!--bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    
     <!--arquivo script-->
     <script type="text/javascript" src="/js/scripts.js"></script>
-
-<<<<<<< HEAD
     
-=======
-<<<<<<< HEAD
-    
-=======
-    <!--script página favoritos-->
-    <script type="text/javascript" src="/favoritos/favoritos.js"></script>
->>>>>>> 7aba58d6be99f6161ed20337f4c44da3db319799
->>>>>>> 6b74727b9a67de0a00900b782895348a4c818991
-
+    <!--bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

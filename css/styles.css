@@ -215,7 +215,15 @@ body {
 }
 
 .clicavel {
+<<<<<<< HEAD
     /* font-size: 14px; */
+=======
+<<<<<<< HEAD
+    /* font-size: 14px; */
+=======
+    font-size: 14px;
+>>>>>>> 7aba58d6be99f6161ed20337f4c44da3db319799
+>>>>>>> 6b74727b9a67de0a00900b782895348a4c818991
 }
 
 .clicavel:hover {

@@ -1,0 +1,9 @@
+# Ignorar arquivos SCSS
+*.scss linguist-language=ignore
+
+# Ignorar arquivos Less
+*.less linguist-language=ignore
+
+# Ignorar arquivos Ruby
+*.rb linguist-language=ignore
+Gemfile linguist-language=ignore

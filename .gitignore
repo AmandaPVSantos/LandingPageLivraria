@@ -1,0 +1,19 @@
+# Ignorar dependências de pacotes (se estiver usando Node.js)
+node_modules/
+
+# Ignorar arquivos de compilação
+dist/
+build/
+
+# Ignorar arquivos temporários
+*.log
+*.tmp
+
+# Ignorar arquivos de sistema (Windows, macOS, etc.)
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos específicos do editor
+.vscode/
+.idea/
+*.swp

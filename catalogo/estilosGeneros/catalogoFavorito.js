@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+// Seleciona todos os ícones de favoritos
+const icons = document.querySelectorAll('.icone_catalogo_favorito i');
+=======
+<<<<<<< HEAD
 // Seleciona todos os ícones de favoritos
 const icons = document.querySelectorAll('.icone_catalogo_favorito i');
 
@@ -14,6 +19,33 @@ icons.forEach(icon => {
     });
 });
 
+=======
+// script - preencher o coração ao passar o mouse
+const icon = document.querySelector('.icone_catalogo_favorito i');
+>>>>>>> 6b74727b9a67de0a00900b782895348a4c818991
+
+// Adiciona eventos para cada ícone
+icons.forEach(icon => {
+    icon.addEventListener('mouseenter', () => {
+        icon.classList.replace('bi-heart', 'bi-heart-fill');
+        icon.style.color = '#000'; // Garante a cor preta ao preencher
+    });
+
+    icon.addEventListener('mouseleave', () => {
+        icon.classList.replace('bi-heart-fill', 'bi-heart');
+        icon.style.color = ''; // Remove a cor para restaurar a aparência padrão
+    });
+});
+
+<<<<<<< HEAD
+=======
+icon.addEventListener('mouseleave', () => {
+    icon.classList.replace('bi-heart-fill', 'bi-heart');
+});
+
+
+>>>>>>> 7aba58d6be99f6161ed20337f4c44da3db319799
+>>>>>>> 6b74727b9a67de0a00900b782895348a4c818991
 // script - Inserir informações do livro em favoritos.
 document.addEventListener("DOMContentLoaded", function() {
     const favoritoBtns = document.querySelectorAll(".favorito-btn");
@@ -39,6 +71,10 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6b74727b9a67de0a00900b782895348a4c818991
 
 
 
@@ -86,3 +122,8 @@ document.addEventListener("DOMContentLoaded", function() {
 //     });
 // });
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7aba58d6be99f6161ed20337f4c44da3db319799
+>>>>>>> 6b74727b9a67de0a00900b782895348a4c818991
